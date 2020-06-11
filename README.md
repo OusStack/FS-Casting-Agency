@@ -1,13 +1,12 @@
 # Casting Agency API
 
-The Casting Agency models a company that is responsible for creating movies and managing and assigning actors to those movies. You are an Executive Producer within the company and are creating a system to simplify and streamline your process.
+The Casting Agency models an organization that is liable for making motion pictures and overseeing and appointing on-screen characters to those motion pictures. You are an Executive Producer inside the organization and are making a framework to disentangle and smooth out your procedure. 
 
-This project uses python, flask and postgresql for it's backend and is hosted on Heroku.
+This task utilizes Python, jar, and PostgreSQL for its backend and is facilitated on Heroku. 
 
-All backend code follows [PEP8 style guidelines](https://www.python.org/dev/peps/pep-0008/)
+All backend code follows PEP8 style rules 
 
-No frontend is developed for this app, you can use it using cURL or [Postman](https://www.postman.com)
-
+No frontend is produced for this application, you can utilize it utilizing cURL or Postman
 
 ## Getting Started
 
