@@ -30,7 +30,11 @@ class CapstoneTest(unittest.TestCase):
             self.db.create_all()
 
     def tearDown(self):
-        """Executed after reach test"""
+        ###
+        """
+        Executed after reach test
+        """
+        ###
         pass
 
     def test_Unauthorized_Permission_NO_HEADERS_get_Actors(self):
@@ -243,10 +247,10 @@ class CapstoneTest(unittest.TestCase):
         res = self.client().patch(
             '/Actors/3',
             json={
-                "name": "john",
+                "name": "jack",
                 "age": "10",
                 "salary": "3000",
-                "email": "kcdskl@jcds.com"},
+                "email": "jack@jcds.com"},
             headers={"Authorization": 'bearer '+self.token_producer}
             )
         body = json.loads(res.data)
@@ -257,10 +261,10 @@ class CapstoneTest(unittest.TestCase):
         res = self.client().patch(
             '/Actors/1000',
             json={
-                "name": "john",
+                "name": "jack",
                 "age": "10",
                 "salary": "3000",
-                "email": "kcdskl@jcds.com"},
+                "email": "jack@jcds.com"},
             headers={"Authorization": 'bearer '+self.token_producer}
             )
         body = json.loads(res.data)
