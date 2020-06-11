@@ -47,19 +47,19 @@ First ensure that you are working in the created virtual environment.
 
 To run the server, execute:
 
-```bash
+-- in bash
 source setup.sh
 export FLASK_APP=app.py
 export FLASK_ENV=development
 flask run
-```
-Sourcing `setup.sh` sets some environment variables used by the app.
+--
+Sourcing "setup.sh" sets some environment variables used by the app.
 
-Setting the `FLASK_ENV` variable to `development` will detect file changes and restart the server automatically.
+Setting the "FLASK_ENV" variable to "development" will detect file changes and restart the server automatically.
 
-Setting the `FLASK_APP` variable to `app.py` directs flask to use the this file to find the application.
+Setting the "FLASK_APP" variable to "app.py" directs flask to use the this file to find the application.
 
-You can run this API locally at the default `http://127.0.0.1:5000/`
+You can run this API locally at the default "http://127.0.0.1:5000/"
 
 ## Testing
 
@@ -73,13 +73,13 @@ python test_app.py
 
 ## Deployment
 
-The app is deployed on Heroku [link](https://fsndcapstone.herokuapp.com).
+The app is deployed on Heroku [link](https://glacial-sierra-44147.herokuapp.com/).
 
 ## API Reference
 
 ### Getting Started
 
-- Base URL: [link](https://fsndcapstone.herokuapp.com)
+- Base URL: [link](https://glacial-sierra-44147.herokuapp.com/)
 - Authentication: This app has 3 users. Each has his own token which are provided in `setup.sh` file. Details about each user privilege are provided below.
 
 ### Endpoints
@@ -104,14 +104,14 @@ Following is the demonstration of each endpoint.
 		{
 		  "Actors": [
 		    {
-		      "age": 38,
-		      "email": "Noha@gmail.com",
+		      "age": 32,
+		      "email": "Soukaina@gmail.com",
 		      "id": 3,
 		      "movies": [
 		        "GoGo",
 		        "alo"
 		      ],
-		      "name": "Noha",
+		      "name": "soukaina",
 		      "salary": 1000
 		    }
 		  ],
@@ -129,8 +129,8 @@ Following is the demonstration of each endpoint.
 		  "Movies": [
 		    {
 		      "actors": [
-		        "ALi",
-		        "Ahmed"
+		        "Oussama",
+		        "Ben"
 		      ],
 		      "genre": "Romance",
 		      "id": 3,
