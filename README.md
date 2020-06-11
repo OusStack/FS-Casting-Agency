@@ -74,13 +74,12 @@ python test_app.py
 
 ## Deployment
 
-The app is deployed on Heroku link (https://glacial-sierra-44147.herokuapp.com/).
+The app is deployed on Heroku link (https://intense-inlet-37903.herokuapp.com/).
 
 ## API Reference
 
 ### Getting Started
 
-- Base URL: (https://glacial-sierra-44147.herokuapp.com/)
 - Authentication: This app has 3 users. Each has his own token which are provided in `setup.sh` file. Details about each user privilege are provided below.
 
 ### Endpoints
