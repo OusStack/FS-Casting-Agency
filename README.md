@@ -48,11 +48,12 @@ First ensure that you are working in the created virtual environment.
 To run the server, execute:
 
 -- in bash
+```
 source setup.sh
 export FLASK_APP=app.py
 export FLASK_ENV=development
 flask run
---
+```
 Sourcing "setup.sh" sets some environment variables used by the app.
 
 Setting the "FLASK_ENV" variable to "development" will detect file changes and restart the server automatically.
